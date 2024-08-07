@@ -1,0 +1,21 @@
+.discussion-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .discussion-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message-box {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .typing-area {
+    margin-top: 20px; /* Add some space between message box and typing area */
+  }
+  

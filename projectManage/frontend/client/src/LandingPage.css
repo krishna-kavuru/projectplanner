@@ -1,0 +1,90 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Landing Page Styles */
+.landing-page {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+  background-image: url('https://st.depositphotos.com/1003362/2843/i/450/depositphotos_28431561-stock-photo-empty-white-room.jpg');
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 450px;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+.feature img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height:200px;
+}
+
+.feature h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.feature p {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
